@@ -21,6 +21,6 @@ let package = Package(
         // Targets can depend on other targets in this package, and on products in packages this package depends on.
         .binaryTarget(name: "MediaPicker",
                       url: "https://github.com/mohammadrhemmati/MediaPicker/releases/download/0.0.1/MediaPicker.xcframework.zip",
-                      checksum: "97aa3a028da26aac47aa72e812f89ca620f1d87bddd0a67089b3cceb89bb614c"),
+                      checksum: "abd4fa994227c884e1cc82261ec4371104c99a9b3366f1f744eecbe22e2da963"),
     ]
 )
