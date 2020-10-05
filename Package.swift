@@ -4,13 +4,13 @@
 import PackageDescription
 
 let package = Package(
-    name: "RubinoStaticMediaPicker",
+    name: "MediaPicker",
     platforms: [.iOS(SupportedPlatform.IOSVersion.v9)],
     products: [
         // Products define the executables and libraries a package produces, and make them visible to other packages.
         .library(
-            name: "RubinoStaticMediaPicker",
-            targets: ["RubinoStaticMediaPicker"]),
+            name: "MediaPicker",
+            targets: ["MediaPicker"]),
     ],
     dependencies: [
         // Dependencies declare other packages that this package depends on.
@@ -19,8 +19,8 @@ let package = Package(
     targets: [
         // Targets are the basic building blocks of a package. A target can define a module or a test suite.
         // Targets can depend on other targets in this package, and on products in packages this package depends on.
-        .binaryTarget(name: "RubinoStaticMediaPicker",
-                      url: "https://github.com/mohammadrhemmati/MediaPicker/releases/download/0.1/RubinoStaticMediaPicker.xcframework.zip",
-                      checksum: "06eb241524e371a4110ca6a0499c6fbd1b158e9b835428ef289f675e5452ddda"),
+        .binaryTarget(name: "MediaPicker",
+                      url: "https://github.com/mohammadrhemmati/MediaPicker/releases/download/0.0.1/MediaPicker.xcframework.zip",
+                      checksum: "97aa3a028da26aac47aa72e812f89ca620f1d87bddd0a67089b3cceb89bb614c"),
     ]
 )
